@@ -1,0 +1,77 @@
+class 24 for angry birds 
+ 
+GOAL: 
+● Design different classes corresponding to the different game  objects.
+● Create objects using the above class blueprints.
+● Make the bird object move with the mouse.
+
+
+Class C25
+
+Goal 
+● Add images and animation to the rectangular boxes in the
+angry birds game.
+● Use inheritance to write sub-classes which extend the
+properties of a parent class
+
+Class C26
+
+Goal 
+● Install git and command line git bash.
+● Use git commands to manage, work and update a remote
+repository
+
+Class C27
+
+Goal 
+● Create a constrained body attached to the bird.
+● Experiment with the different properties of a constraint.
+● Write a different class for the constraint.
+
+
+Class C28
+
+Goal 
+● Create a slingshot effect in the Angry Birds game.
+● Learn to use the mouse trigger events like mouseDragged
+and mouseReleased.
+
+Class C29
+
+Goal 
+● Place the images of the catapult in the game.
+● Use color picker to pick colors for the rubber.
+● Draw the rubber band for the catapult.
+  
+Class C30
+
+Goal 
+● Remove the pig object from the world when the pig is hit.
+● Add vanishing effect to the pig.
+● Use keyboard events to attach the bird back to the sling.
+
+Class C31
+
+Goal 
+● Learn about the array data structure and how data is stored
+inside them.
+● Use the array data structure to design the bird's trajectory
+after it has been launched.
+● Use the concept of game state to stop the bird from being
+draggable after the bird is launched.
+
+Class C32
+
+Goal 
+● Learn about API calls and how to make an API call.
+● Learn about the JSON data structure and how to access data
+from JSON.
+● Learn how to create an asynchronous function in Javascript.
+● Build the scoring system for the game.
+
+Class C33
+
+Goal 
+● Learn how to minimize errors and bugs in the code.
+● Learn different techniques to debug codes.
+● Debug the Angry Bird trajectory when shooting multiple times.
