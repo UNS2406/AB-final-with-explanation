@@ -33,9 +33,6 @@ function preload() {
   setBackgroundImg();
 
   //adding sounds
-  // releaseSound = loadSound("sounds/bird_flying.mp3");
-  //pigSound = loadSound("sounds/pig_snort.mp3");
-  //birdSound = loadSound("sounds/bird_select.mp3");
 }
 
 //define the intial environment of the software(before it is used)
@@ -48,11 +45,13 @@ function setup() {
   userEngine = Engine.create();
   userWorld = userEngine.world;
 
-  //object name = new Classname(constructor call)
+ 
 
-//default gamestate value will be associated with bird position i.e. attached to slingshot
-gameState = "onSlingShot";
+  //default gamestate value will be associated with bird position i.e. attached to slingshot
+  gameState = "onSlingShot";
 
+   //object name = new Classname(constructor call)
+  //creation of 2 objects for GROUND class
   ground = new Ground(600, height - 10, 1200, 20);
   platform = new Ground(150, 305, 300, 170);
 
@@ -79,21 +78,17 @@ gameState = "onSlingShot";
   pig2 = new Pig(810, 220);
   log2 = new Log(810, 180, 300, PI / 2);
 
-  //pigSound.play();
+
 
   //creation of 3rd layer using matter.js
   box5 = new Box(810, 160, 70, 70);
   log3 = new Log(760, 120, 150, PI / 7);
   log4 = new Log(870, 120, 150, -PI / 7);
 
-  // birdSound.play();
+
 
   timesPlayed = 0;
   score = 0;
-
-
-
-
 
 
 }
